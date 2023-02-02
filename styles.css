@@ -1,0 +1,52 @@
+body{
+    background-color: #000000;
+    text-align: center;
+}
+h1{
+    color: #F0A500;
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    text-align: center;    
+}
+.text-div{
+    height: 28rem;
+    position: relative;
+}
+#passwordinput{
+    height: 3.5rem;
+    width: 25%;
+    font-family: 'Teko', sans-serif;
+    font-size:2.4rem ;
+    margin-top: 5rem;
+    border-color: red;
+    border-radius: 20px;
+    border-width: 5px;
+    text-align: center;
+    border-style:solid;
+}
+.generate{
+    font-family: 'Teko', sans-serif;
+    height: 3.9rem;
+    width: 5rem;
+    position: relative;
+    bottom:2.5px;
+    font-size:24px;
+    
+}
+footer{
+    font-family: 'Teko', sans-serif;
+
+
+}
+.copy{
+    font-family: 'Teko', sans-serif;
+    height: 3rem;
+    width: 7rem;
+    position: relative;
+    top: 10px;
+    text-align: center;
+
+    font-size:24px;
+    right:30px;
+    
+}
