@@ -26,11 +26,13 @@ h1{
 }
 .generate{
     font-family: 'Teko', sans-serif;
-    height: 3.9rem;
-    width: 5rem;
-    position: relative;
-    bottom:2.5px;
+    /* position: relative; */
+    /* bottom:2.5px; */
     font-size:24px;
+    border-radius: 20px;
+    padding: 0 20px;
+    overflow:hidden;
+
     
 }
 footer{
