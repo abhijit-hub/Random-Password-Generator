@@ -1,45 +1,85 @@
 body{
-    background-color: #000000;
+    /* background-color: #000000; */
     text-align: center;
+    background-color: #0c0c0c;
+ 
 }
+
+
+
 h1{
-    color: #F0A500;
+    color: #fc3030;
+    letter-spacing: 2px;
     font-family: 'Teko', sans-serif;
     font-size: 4rem;
     text-align: center;    
+    margin-bottom: 9rem;
 }
 .text-div{
     height: 28rem;
-    position: relative;
+    /* position: relative; */
 }
 #passwordinput{
     height: 3.5rem;
-    width: 25%;
+    width: 50vh;
+    background-color: #0c0c0c;
+
     font-family: 'Teko', sans-serif;
-    font-size:2.4rem ;
-    margin-top: 5rem;
-    border-color: red;
-    border-radius: 20px;
-    border-width: 5px;
+    font-size:2.4rem;
+    /* margin-top: 5rem; */
+    /* border-radius: 12px; */
     text-align: center;
-    border-style:solid;
-}
+    color: white;
+    letter-spacing: 2px;
+    border: solid 2px #fc3030de;
+    transition: all 1s;
+
+
+    }
 .generate{
     font-family: 'Teko', sans-serif;
     /* position: relative; */
     /* bottom:2.5px; */
     font-size:24px;
-    border-radius: 20px;
-    padding: 0 20px;
+    border-radius: 12px;
+    padding: 15px 20px;
     /* overflow:hidden; */
-    background-color: red;
+    color: #fc3030de;
+    background-color: black;    
+    -webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+    cursor: pointer;
+    border: solid 1px rgba(255, 255, 255, 0.527);
+    border-radius: 7px;
 
     
+    
 }
-footer{
+
+.btn{
+
+
+}
+footer a{
     font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.428);
+    font-weight: lighter;
+    
 
 
+
+}
+
+.main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* width: 80%; */
+    margin: 0 auto;
+    
 }
 .copy{
     font-family: 'Teko', sans-serif;
@@ -50,6 +90,19 @@ footer{
     text-align: center;
 
     font-size:24px;
+    border: solid 1px rgba(255, 255, 255, 0.527);
+
     right:30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
     
 }
+
+
+
+
+
+
+
+
